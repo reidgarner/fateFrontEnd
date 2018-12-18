@@ -3,7 +3,7 @@ $blue: #243665;
 $white: whitesmoke;
 
 header {
-    background: $green;
+    background: $blue;
 
     .logo {
         font-weight: bold;
@@ -11,11 +11,13 @@ header {
         font-size: 3rem;
         transition-duration: .5s;
         color: $white;
+        text-shadow: 2px 2px $blue;
         &:hover {
         color: $blue;
         text-decoration: none;
         font-size: 4rem;
         transition-duration: .5s;
+        text-shadow: 1px 1px $white;
         }
     }
 
@@ -38,12 +40,14 @@ header {
                     justify-content: center;
                     border-radius: 10%;
                     color: $white;
+                    text-shadow: 1px 1px $blue;
 
                     &:hover {
                         background: $blue;
                         text-decoration: none;
                         transition-duration: .5s;
                         font-size: 1.5em;
+                        text-shadow: 1px 1px $green;
                     }
                 }
             }
