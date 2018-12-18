@@ -10,6 +10,7 @@ header {
         font-family: 'Fahkwang', sans-serif;
         font-size: 3rem;
         transition-duration: .5s;
+        color: $white;
         &:hover {
         color: $blue;
         text-decoration: none;
@@ -36,6 +37,7 @@ header {
                     display: flex;
                     justify-content: center;
                     border-radius: 10%;
+                    color: $white;
 
                     &:hover {
                         background: $blue;
