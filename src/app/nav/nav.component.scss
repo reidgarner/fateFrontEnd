@@ -11,13 +11,13 @@ header {
         font-size: 3rem;
         transition-duration: .5s;
         color: $white;
-        text-shadow: 2px 2px $blue;
+        text-shadow: 1.5px 1.5px $green;
         &:hover {
-        color: $blue;
+        color: $white;
         text-decoration: none;
         font-size: 4rem;
         transition-duration: .5s;
-        text-shadow: 1px 1px $white;
+        text-shadow: 2px 2px $green;
         }
     }
 
@@ -43,11 +43,11 @@ header {
                     text-shadow: 1px 1px $blue;
 
                     &:hover {
-                        background: $blue;
+                        background: $green;
                         text-decoration: none;
                         transition-duration: .5s;
                         font-size: 1.5em;
-                        text-shadow: 1px 1px $green;
+                        text-shadow: 1px 1px $blue;
                     }
                 }
             }
