@@ -1,0 +1,36 @@
+$green: #8BD8BD;
+$blue: #243665;
+$white: whitesmoke;
+
+
+
+.row {
+  padding: 2em;
+  opacity: 1;
+}
+
+
+.btn-color {
+  background-color: $blue;
+  color: $white;
+
+}
+
+.card {
+  margin: 1em 0em 1em 0em;
+  box-shadow: 5px 7px $green;
+  //   opacity: 1;
+
+}
+
+.image {
+  height: 40em;
+  background-size: cover;
+  width: auto;
+  background-image: url('https://cdn3.vectorstock.com/i/1000x1000/80/42/green-letter-f-icons-design-vector-5208042.jpg');
+  background-position: 100% 65%;
+  opacity: 0.2;
+  background-repeat: no-repeat;
+  background-color: whitesmoke;
+  color: #8BD8BD;
+}
