@@ -44,11 +44,13 @@ $white: whitesmoke;
 }
 
 .card-title {
-
+  color: $blue;
+  text-shadow: 1.5px 1.5px $green;
   text-decoration-color: #243665;
 }
 
 .card-text {
-  -moz-text-decoration-style: solid;
-  text-decoration-color: #243665;
+  text-decoration-style: solid;
+  color: $blue;
+  text-shadow: 1.5px 1.5px $green;
 }
