@@ -6,7 +6,7 @@ $white: whitesmoke;
   height: 40em;
   background-size: cover;
   width: 100%;
-  background-image: url('https://cdn3.vectorstock.com/i/1000x1000/80/42/green-letter-f-icons-design-vector-5208042.jpg');
+  background-image: url('https://slack-imgs.com/?c=1&url=https%3A%2F%2Ffarm5.staticflickr.com%2F4864%2F32513482158_5acaf8b355_b.jpg');
   background-position: center;
   //   opacity: 0.2;
   //   background-repeat: no-repeat;
@@ -41,4 +41,14 @@ $white: whitesmoke;
 .col-sm-6 {
   //   background-color: transparent;
   opacity: 0.97 !important;
+}
+
+.card-title {
+
+  text-decoration-color: #243665;
+}
+
+.card-text {
+  -moz-text-decoration-style: solid;
+  text-decoration-color: #243665;
 }
