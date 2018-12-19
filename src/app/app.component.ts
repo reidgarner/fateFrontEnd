@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, OnInit, ChangeDetectionStrategy } from "@angular/core";
+import { GetAccountUsers } from "./getaccountUsers.service";
 
 @Component({
   selector: "app-root",
@@ -7,4 +8,11 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "fateFrontEnd";
+  
+  constructor(private _GetAccountUsers: GetAccountUsers) {}
+  ngOnInit() {
+    this._GetAccountUsers.getData().subscribe(data => {
+      console.log(data);
+    });
+  }
 }
