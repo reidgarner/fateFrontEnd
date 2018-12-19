@@ -2,16 +2,55 @@ $green: #8BD8BD;
 $blue: #243665;
 $white: whitesmoke;
 
+.image {
+  height: 40em;
+  background-size: cover;
+  width: 100%;
+  background-image: url('https://slack-imgs.com/?c=1&url=https%3A%2F%2Ffarm5.staticflickr.com%2F4864%2F32513482158_5acaf8b355_b.jpg');
+  background-position: center;
+  //   opacity: 0.2;
+  //   background-repeat: no-repeat;
+  background-color: whitesmoke;
+  color: #8BD8BD;
+  background-attachment: fixed;
+  position: relative;
+  background-color: transparent;
+
+}
+
 .row {
-    padding: 2em;
+  padding: 2em;
+  //   background-color: transparent;
+  opacity: 0.97 !important;
 }
 
 .btn-color {
-    background-color: $blue; 
-    color: $white; 
+  background-color: $blue;
+  color: $white;
+  opacity: 0.97 !important;
+  //   background-color: transparent;
 }
 
 .card {
-    margin: 1em 0em 1em 0em; 
-    box-shadow: 5px 7px $green;
+  margin: 1em 0em 1em 0em;
+  box-shadow: 5px 7px $green;
+  opacity: 0.97 !important;
+  //   background-color: transparent;
+}
+
+.col-sm-6 {
+  //   background-color: transparent;
+  opacity: 0.97 !important;
+}
+
+.card-title {
+  color: $blue;
+  text-shadow: 1.5px 1.5px $green;
+  text-decoration-color: #243665;
+}
+
+.card-text {
+  text-decoration-style: solid;
+  color: $blue;
+  text-shadow: 1.5px 1.5px $green;
 }

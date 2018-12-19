@@ -8,6 +8,7 @@ import { GetAccountUsers } from "./getaccountUsers.service";
 })
 export class AppComponent {
   title = "fateFrontEnd";
+  
   constructor(private _GetAccountUsers: GetAccountUsers) {}
   ngOnInit() {
     this._GetAccountUsers.getData().subscribe(data => {
