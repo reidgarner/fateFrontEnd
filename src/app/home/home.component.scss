@@ -3,15 +3,39 @@ $blue: #243665;
 $white: whitesmoke;
 
 .row {
-    padding: 2em;
+  padding: 2em;
 }
 
 .btn-color {
-    background-color: $blue; 
-    color: $white; 
+  background-color: $blue;
+  color: $green;
 }
 
 .card {
-    margin: 1em 0em 1em 0em; 
-    box-shadow: 5px 7px $green;
+  margin: 1em 0em 1em 0em;
+  box-shadow: 5px 7px $green;
+}
+
+.image {
+  height: 100%;
+  background-size: cover;
+  width: auto;
+  background-image: url('https://slack-imgs.com/?c=1&url=https%3A%2F%2Ffarm5.staticflickr.com%2F4864%2F32513482158_5acaf8b355_b.jpg');
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.card {
+  opacity: 0.95;
+}
+
+.card-title {
+  color: $blue;
+  text-shadow: 1.5px 1.5px $green;
+}
+
+.card-text {
+  color: $blue;
+  text-shadow: 1.5px 1.5px $green;
 }
