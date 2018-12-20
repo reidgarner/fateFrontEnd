@@ -7,6 +7,8 @@ import { NavComponent } from "./nav/nav.component";
 import { LoginComponent } from "./login/login.component";
 import { SignupComponent } from "./signup/signup.component";
 import { HomeComponent } from "./home/home.component";
+import { ChartsComponent } from './charts/charts.component';
+import { ChartsModule } from 'ng2-charts/ng2-charts'
 
 @NgModule({
   declarations: [
@@ -14,9 +16,10 @@ import { HomeComponent } from "./home/home.component";
     NavComponent,
     LoginComponent,
     SignupComponent,
-    HomeComponent
+    HomeComponent,
+    ChartsComponent
   ],
-  imports: [BrowserModule, HttpClientModule, AppRoutingModule],
+  imports: [BrowserModule, HttpClientModule, AppRoutingModule, ChartsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
