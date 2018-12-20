@@ -1,0 +1,21 @@
+$green: #8BD8BD;
+$blue: #243665;
+$white: whitesmoke;
+
+.jumbotron-fluid {
+  margin: 3% 5% 3% 5%;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 15rem;
+  margin-right: 23%;
+  background-color: $blue;
+  color: $green;
+  position: relative;
+  bottom: 4rem;
+}
