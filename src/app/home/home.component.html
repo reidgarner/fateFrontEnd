@@ -3,9 +3,14 @@
     <div class="col-sm-4" *ngFor="let profile of profiles">
       <div class="card">
         <div class="card-body">
-          <img src="/assets/Beef.jpeg" alt="Beef" class="card-img-right">
-          <h5 class="card-title">{{profile.first_name | titlecase}} <br> {{profile.last_name | titlecase}}</h5>
-          <a routerLink="/profile" class="btn btn-color">Decide their FATE!</a>
+          <img [src]="profile.url" alt="" class="card-img-right" />
+          <h5 class="card-title">
+            {{ profile.first_name | titlecase }} <br />
+            {{ profile.last_name | titlecase }}
+          </h5>
+          <a href="#" class="btn btn-color">Decide their FATE!</a>
         </div>
       </div>
     </div>
+  </div>
+</div>
