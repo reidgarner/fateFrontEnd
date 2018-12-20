@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FateDataService } from '../fate-data.service'
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-profile',
@@ -6,10 +8,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.scss']
 })
 export class ProfileComponent implements OnInit {
+  profiles:Object 
+  profile_id:any 
 
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private profileData: FateDataService, route: ActivatedRoute) { 
+    this.profile_id = route.snapshot.params['id'];
   }
 
+  ngOnInit() {
+    this.getData()
+  }
+
+  getData() {
+    this.profileData.getData().subscribe(response => {
+      this.profiles = response 
+    })
+  }
 }
