@@ -17,10 +17,10 @@ export class ChartsComponent implements OnInit {
   };
 
   public apocalypseType = 'horizontalBar';
-  // public apocalypseLegend = true;
+  public apocalypseLegend = true;
   public apocalypseData = [
-    {data: [32, 0], label: 'Yes'},
-    {data: [57, 0], label: 'No'}
+    {data: [32, 0], label: '👍'},
+    {data: [57, 0], label: 'Definitely not.'}
   ];
 
   public toiletPaperOptions = {
@@ -34,7 +34,7 @@ export class ChartsComponent implements OnInit {
   public toiletPaperLegend = true;
   public toiletPaperData = [
     {data: [57, 0], label: 'Crunch all day!'},
-    {data: [35, 0], label: 'Roll it nicely'}
+    {data: [35, 0], label: 'Fold it neatly'}
   ];
 
   public hogwartsOptions = {
@@ -42,11 +42,11 @@ export class ChartsComponent implements OnInit {
     responsive: true 
   };
 
-  public hogwartsLabels = ['Gryffindor', 'Ravenclaw', 'Hufflepuff', 'Slytherin', `Muggle (they don't even go here)`];
+  public hogwartsLabels = ['Gryffindor', 'Ravenclaw', 'Hufflepuff', 'Slytherin'];
   public hogwartsType = 'doughnut';
   public hogwartsLegend = true;
   public hogwartsData = [
-    {data: [28, 48, 40, 19, 86]}
+    {data: [28, 48, 40, 19]}
   ];
 
   public clubFlixOptions = {
@@ -89,10 +89,62 @@ export class ChartsComponent implements OnInit {
     {data: [28, 48, 40, 19]}
   ];
 
+  public emailOptions = {
+    scales: {
+      xAxes: [{ stacked: true }],
+      yAxes: [{ stacked: true }]
+    }
+  };
+
+  public emailType = 'horizontalBar';
+  public emailLegend = true;
+  public emailData = [
+    {data: [23, 0], label: 'Zero'},
+    {data: [88, 0], label: '2,327'}
+  ];
+
+  public yellowLightOptions = {
+    scales: {
+      xAxes: [{ stacked: true }],
+      yAxes: [{ stacked: true }]
+    }
+  };
+
+  public yellowLightType = 'horizontalBar';
+  public yellowLightLegend = true;
+  public yellowLightData = [
+    {data: [76, 0], label: 'Speed through!'},
+    {data: [18, 0], label: '✋ Stop'}
+  ];
+
+  public schoolSubjectOptions = {
+    scaleShowVerticalLines: false,
+    responsive: true 
+  };
+
+  public schoolSubjectLabels = ['Science', 'Math', 'Gym', 'History', 'English', 'Arts'];
+  public schoolSubjectType = 'doughnut';
+  public schoolSubjectLegend = true;
+  public schoolSubjectData = [
+    {data: [28, 48, 40, 19, 0, 2]}
+  ];
+
+  public movieRoleOptions = {
+    scaleShowVerticalLines: false,
+    responsive: true 
+  };
+
+  public movieRoleLabels = ['Drama', 'Sci-Fi', 'Action', 'Comedy', 'Romance', 'Horror'];
+  public movieRoleType = 'doughnut';
+  public movieRoleLegend = true;
+  public movieRoleData = [
+    {data: [18, 48, 0, 19, 0, 2]}
+  ];
 
   
 
   ngOnInit() {
+    
   }
 
 }

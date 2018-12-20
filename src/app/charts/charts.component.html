@@ -1,71 +1,102 @@
-<div>
-  <div>
-    <canvas baseChart
-            [datasets]="apocalypseData"
-            [labels]="apocalypseLabels"
-            [options]="apocalypseOptions"
-            [legend]="apocalypseLegend"
-            [chartType]="apocalypseType">
-    </canvas>
-  </div>
-</div>
-
-<div>
-  <div>
-    <canvas baseChart
-            [datasets]="toiletPaperData"
-            [labels]="toiletPaperLabels"
-            [options]="toiletPaperOptions"
-            [legend]="toiletPaperLegend"
-            [chartType]="toiletPaperType">
-    </canvas>
-  </div>
-</div>
-
-<div>
-  <div>
-    <canvas baseChart
-            [datasets]="hogwartsData"
-            [labels]="hogwartsLabels"
-            [options]="hogwartsOptions"
-            [legend]="hogwartsLegend"
-            [chartType]="hogwartsType">
-    </canvas>
-  </div>
-</div>
-
-<div>
-  <div>
-    <canvas baseChart
-            [datasets]="clubFlixData"
-            [labels]="clubFlixLabels"
-            [options]="clubFlixOptions"
-            [legend]="clubFlixLegend"
-            [chartType]="clubFlixType">
-    </canvas>
-  </div>
-</div>
-
-<div>
-  <div>
-    <canvas baseChart
-            [datasets]="campingResortData"
-            [labels]="campingResortLabels"
-            [options]="campingResortOptions"
-            [legend]="campingResortLegend"
-            [chartType]="campingResortType">
-    </canvas>
-  </div>
-</div>
-
-<div>
-  <div>
-    <canvas baseChart
-            [datasets]="seasonData"
-            [labels]="seasonLabels"
-            [options]="seasonOptions"
-            [legend]="seasonLegend"
-            [chartType]="seasonType">
-    </canvas>
-  </div>
+<div class="chartsContainer">
+      <div class="chart">
+        <h4>Would they survive the apocalypse?</h4>
+        <canvas baseChart
+          [datasets]="apocalypseData"
+          [labels]="apocalypseLabels"
+          [options]="apocalypseOptions"
+          [legend]="apocalypseLegend"
+          [chartType]="apocalypseType">
+        </canvas>
+      </div>
+      <div class="chart">
+        <h4>Do they crunch their toilet paper or do they fold it?</h4>
+        <canvas baseChart
+          [datasets]="toiletPaperData"
+          [labels]="toiletPaperLabels"
+          [options]="toiletPaperOptions"
+          [legend]="toiletPaperLegend"
+          [chartType]="toiletPaperType">
+        </canvas>
+      </div>
+      <div class="chart">
+        <h4>What Hogwarts house would they be sorted into?</h4>
+        <canvas baseChart
+          [datasets]="hogwartsData"
+          [labels]="hogwartsLabels"
+          [options]="hogwartsOptions"
+          [legend]="hogwartsLegend"
+          [chartType]="hogwartsType">
+        </canvas>
+      </div>
+      <div class="chart">
+        <h4>Are you more likely to find them dancing in the club or watching Netflix on the couch?</h4>
+        <canvas baseChart
+          [datasets]="clubFlixData"
+          [labels]="clubFlixLabels"
+          [options]="clubFlixOptions"
+          [legend]="clubFlixLegend"
+          [chartType]="clubFlixType">
+        </canvas>
+      </div>
+      <div class="chart">
+        <h4>Would you find them camping in a tent or lounging at a resort?</h4>
+        <canvas baseChart
+          [datasets]="campingResortData"
+          [labels]="campingResortLabels"
+          [options]="campingResortOptions"
+          [legend]="campingResortLegend"
+          [chartType]="campingResortType">
+        </canvas>
+      </div>
+      <div class="chart">
+        <h4>If they were a season, which would they be?</h4>
+        <canvas baseChart
+          [datasets]="seasonData"
+          [labels]="seasonLabels"
+          [options]="seasonOptions"
+          [legend]="seasonLegend"
+          [chartType]="seasonType">
+        </canvas>
+      </div>
+      <div class="chart">
+          <h4>Do they have zero email notifications or 2,327?</h4>
+          <canvas baseChart
+            [datasets]="emailData"
+            [labels]="emailLabels"
+            [options]="emailOptions"
+            [legend]="emailLegend"
+            [chartType]="emailType">
+        </canvas>
+      </div>
+      <div class="chart">
+        <h4>When approaching a yellow light, do they speed through it or stop?</h4>
+        <canvas baseChart
+          [datasets]="yellowLightData"
+          [labels]="yellowLightLabels"
+          [options]="yellowLightOptions"
+          [legend]="yellowLightLegend"
+          [chartType]="yellowLightType">
+        </canvas>
+      </div>
+      <div class="chart">
+        <h4>What was their favorite class in high school?</h4>
+        <canvas baseChart
+          [datasets]="schoolSubjectData"
+          [labels]="schoolSubjectLabels"
+          [options]="schoolSubjectOptions"
+          [legend]="schoolSubjectLegend"
+          [chartType]="schoolSubjectType">
+        </canvas>
+      </div>
+      <div class="chart">
+        <h4>If they were in a movie, what genre would it be?</h4>
+        <canvas baseChart
+          [datasets]="movieRoleData"
+          [labels]="movieRoleLabels"
+          [options]="movieRoleOptions"
+          [legend]="movieRoleLegend"
+          [chartType]="movieRoleType">
+        </canvas>
+      </div>
 </div>
