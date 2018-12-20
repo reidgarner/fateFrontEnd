@@ -1,12 +1,16 @@
 <div class="image" *ngIf="profiles">
-    <div class="row" >
-      <div class="col-sm-6" *ngFor="let profile of profiles">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">{{profile.first_name | titlecase}}</h5>
-            <p class="card-text">Would they go to the club or stay home and watch Netflix?</p>
-            <p class="card-text">Netflix</p>
-            <a href="#" class="btn btn-color">Learn More</a>
-          </div>
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let profile of profiles">
+      <div class="card">
+        <div class="card-body">
+          <img [src]="profile.url" alt="" class="card-img-right" />
+          <h5 class="card-title">
+            {{ profile.first_name | titlecase }} <br />
+            {{ profile.last_name | titlecase }}
+          </h5>
+          <a routerLink="/profile" class="btn btn-color">Decide their FATE!</a>
         </div>
+      </div>
+    </div>
   </div>
+</div>

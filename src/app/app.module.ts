@@ -9,6 +9,7 @@ import { SignupComponent } from "./signup/signup.component";
 import { HomeComponent } from "./home/home.component";
 import { ChartsComponent } from './charts/charts.component';
 import { ChartsModule } from 'ng2-charts/ng2-charts'
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ChartsModule } from 'ng2-charts/ng2-charts'
     SignupComponent,
     HomeComponent,
     ChartsComponent
+    ProfileComponent
   ],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule, ChartsModule],
   providers: [],
