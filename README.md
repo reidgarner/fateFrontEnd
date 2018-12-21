@@ -1,27 +1,64 @@
-# FateFrontEnd
+#FATE. 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
+##Description: 
+    - Our site provides a platform that allows users to rate each other anonymously. This will give real-time feedback for users to better themselves through our app.
 
-## Development server
+##Project Images: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![Home]((assets/Home.png))
 
-## Code scaffolding
+###
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![LogIn]((assets/LogIn.png))
 
-## Build
+###
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+![SignUp]((assets/SignUp.png))
 
-## Running unit tests
+###
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![Questions]((assets/Questions.png))
 
-## Running end-to-end tests
+###
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+![Charts]((assets/Charts.png))
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+##Why we made it:
+    - As an individual, we like to think we know how others see us. However, the way others see us is not usually how we see ourselves. Our app is meant to give the individual a different but light hearted look into themselves so that they may have a alternate idea of how the world perceives them.   
+
+##The problem we hope to solve:
+    - Our app was created with the idea that an individual can and will benefit from an alternate view of themselves. 
+
+##Who is the app designed for:
+    - Everyone. 
+
+###Technologies Used:
+    - Angular 7
+    - HTML
+    - SCSS
+    - Chart.js
+    - Bootstrap
+    - Knex
+    - Express
+    - PSQL
+    - Node
+
+###Contributors:
+    - Bethany (Beef) Mitch
+    - Ben Rumsey
+    - DeBronis Warren
+    - Reid Garner
+
+###Repo Links:
+    - Front-End Repo: https://github.com/justcallmebeef/fateFrontEnd
+    - Back-End Repo: https://github.com/Brumz/fateBackEnd
+
+###Deployed site links:
+    - Deployed Front-End Site: http://fatey-masters2.surge.sh/
+    - Deployed Back-End Site: https://fatemastersdb.herokuapp.com/accountusers , https://fatemastersdb.herokuapp.com/profiles , https://fatemastersdb.herokuapp.com/ratings
+
+###Installation steps:
+    - npm install 
+    - ng serve --open 
+
