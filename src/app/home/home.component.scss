@@ -1,0 +1,71 @@
+$green: #8BD8BD;
+$blue: #243665;
+$white: whitesmoke;
+
+.row {
+  padding: 2em;
+  margin-left: 5em;
+  display: flex;
+  align-content: center;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
+}
+
+.btn-color {
+  background-color: $blue;
+  color: $green;
+}
+
+.card {
+  margin: 1em 0em 1em 0em;
+  box-shadow: 5px 7px $green;
+  transition: 0.3s;
+  opacity: 0.90;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}
+
+.image {
+  height: max-content;
+  background-size: cover;
+  width: auto;
+  background-image: url('https://slack-imgs.com/?c=1&url=https%3A%2F%2Ffarm5.staticflickr.com%2F4864%2F32513482158_5acaf8b355_b.jpg');
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  align-content: center;
+}
+
+.card-title {
+  color: $blue;
+  font-size: 175%;
+  text-shadow: 1.5px 1.5px $green;
+  align-content: center;
+}
+
+.card-text {
+  color: $blue;
+  text-shadow: 1.5px 1.5px $green;
+  height: max-content;
+  width: max-content;
+  display: flex;
+  align-content: center;
+}
+
+img {
+  border-radius: 30%;
+  align-content: center;
+  position: inherit;
+  height: 70%;
+  width: 50%;
+}
+
+
+.card-body {
+  align-content: center;
+  justify-content: space-between;
+  vertical-align: middle;
+  text-align: center;
+}
