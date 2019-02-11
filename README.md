@@ -45,10 +45,10 @@ Everyone.
 - Node
 
 ### Contributors:
+- Reid Garner
 - Bethany (Beef) Mitch
 - Ben Rumsey
 - DeBronis Warren
-- Reid Garner
 
 ### Repo Links:
 - Front-End Repo: https://github.com/justcallmebeef/fateFrontEnd
