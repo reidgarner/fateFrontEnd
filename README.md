@@ -59,6 +59,6 @@ Everyone.
 - Deployed Back-End Site: https://fatemastersdb.herokuapp.com/accountusers , https://fatemastersdb.herokuapp.com/profiles , https://fatemastersdb.herokuapp.com/ratings
 
 ### Installation steps:
-- npm install 
-- ng serve --open 
+- $ npm install 
+- $ ng serve --open 
 
